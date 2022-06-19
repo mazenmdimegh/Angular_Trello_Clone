@@ -21,4 +21,7 @@ export class HomeComponent implements OnInit {
       }
     );
   }
+  onClickSubmit(result :any) {
+    console.log("You have entered : " + result.username); 
+ }
 }
